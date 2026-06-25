@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "Beauty by Daiva",
+    "city": "Kristiansand S",
+    "category": "other",
+    "phone": "+4740557542",
+    "email": "ddaivute.d@gmail.com",
+    "address": "Markens gate 18, 4611 Kristiansand S"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f7f0f5",
+    "accentColor": "#9b4d7c",
+    "textColor": "#1a1024",
+    "heroColor": "#f5eaf1",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
+    "variant": "minimal",
+    "eyebrow": "Skjønnhetsbehandling · Kristiansand",
+    "headline": "Beauty by",
+    "headlineAccent": "Daiva",
+    "subheadline": "Profesjonelle skjønnhetsbehandlinger i hjertet av Kristiansand – fordi du fortjener å føle deg vakker, hver eneste dag.",
     "ctaText": "Bestill Time",
-    "ctaSecondary": "Se Tjenester"
+    "ctaSecondary": "Se Behandlinger"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "1500+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Personlig service"
+      },
+      {
+        "value": "5★",
+        "label": "Kundevurdering"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
-    "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "heading": "Våre Behandlinger",
+    "cta": "Bestill Time Nå",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Ansiktsbehandling",
+        "desc": "Skreddersydde ansiktsbehandlinger som gir huden din ny glød, fuktighet og vitalitet.",
+        "icon": "Sparkles",
+        "price": "Fra 790 kr"
+      },
+      {
+        "name": "Voksing & Hårfjerning",
+        "desc": "Skånsom og effektiv hårfjerning med profesjonelle produkter for et silkemykt resultat.",
+        "icon": "Droplets",
+        "price": "Fra 350 kr"
+      },
+      {
+        "name": "Bryn & Vipper",
+        "desc": "Få perfekt formede bryn og fyldige vipper som fremhever ditt naturlige uttrykk.",
+        "icon": "Crown",
+        "price": "Fra 450 kr"
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Skjønnhet med Lidenskap og Omsorg",
+    "body": "Beauty by Daiva ble grunnlagt av Daiva Daciene med en visjon om å tilby førsteklasses skjønnhetsbehandlinger i Kristiansand. Med over ti års erfaring og en genuin lidenskap for faget, leverer Daiva personlige behandlinger tilpasset hver enkelt kundes behov. Hos oss handler det ikke bare om utseende – det handler om å gi deg en opplevelse som gjør at du føler deg vel innvendig og utvendig.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års bransjeerfaring"
+    },
+    "stat2": {
+      "value": "1500+",
+      "label": "Behandlinger utført"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Dedikasjon til kvalitet"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Se resultater fra våre skjønnhetsbehandlinger og la deg inspirere."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Ingrid Halvorsen",
+        "role": "Fast kunde siden 2021",
+        "text": "Daiva er utrolig dyktig og grundig. Etter hver behandling føler jeg meg helt forynget – anbefales på det varmeste!",
+        "rating": 5
+      },
+      {
+        "name": "Camilla Strand",
+        "role": "Fast kunde siden 2022",
+        "text": "Fantastisk opplevelse fra start til slutt. Daiva tar seg virkelig tid til å forstå hva huden min trenger, og resultatene snakker for seg selv.",
+        "rating": 5
+      },
+      {
+        "name": "Marte Kristiansen",
+        "role": "Ny kunde",
+        "text": "Endelig funnet en skjønnhetsbehandler i Kristiansand som leverer på alle fronter. Profesjonell, varm og utrolig flink!",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
-    "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "heading": "Bestill Din Behandling",
+    "subheading": "Ta kontakt for å booke din neste behandling eller stille spørsmål – vi svarer deg gjerne."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
