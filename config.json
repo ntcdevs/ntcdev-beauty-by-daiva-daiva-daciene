@@ -133,7 +133,7 @@
   },
   "images": {
     "hero": "other/hero-01.jpg",
-    "about": "other/shop-01.jpg",
+    "about": "https://ubhmaudibilphahbrtyc.supabase.co/storage/v1/object/public/lead-assets/688de93a-8a0f-4405-8628-2c1ae0194531/about/antonika-chanel-RJCslxmvBcs-unsplash.jpg",
     "gallery": [
       "other/shop-01.jpg",
       "other/shop-02.jpg",
